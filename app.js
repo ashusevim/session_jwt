@@ -1,7 +1,6 @@
 import express from "express";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv"
-import { ClerkExpressRequireAuth, ClerkExpressWithAuth } from '@clerk/express'
 dotenv.config()
 
 const secretKey = process.env.secretKey
